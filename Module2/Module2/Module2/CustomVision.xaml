@@ -1,9 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Module2.CustomVision" Title= "Custom Vision">
-   <ScrollView>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Module2.CustomVision" Title="Custom Vision">
+    <ScrollView>
         <StackLayout Padding ="20" Orientation="Vertical">
-            <Button Text="Take Photo and Analyze" Clicked="loadCamera" />
-            <Image x:Name="image" />
+        <Button Text="Take Photo and Analyze" Clicked="loadCamera" />
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="TagLabel">
+            </Label>
+            <Label x:Name="PredictionLabel">
+            </Label>
+            </StackLayout>
+        <Image x:Name="image" Aspect="AspectFit"/>
+        <Label x:Name="Decision">
+        </Label>
         </StackLayout>
-    </ScrollView>
+  </ScrollView>
 </ContentPage>
