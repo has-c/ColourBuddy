@@ -63,7 +63,7 @@ namespace Module2
 
             client.DefaultRequestHeaders.Add("Prediction-Key", "604985757f4f4ed193bc3511407a4d76");
 
-            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/27fc2537-3261-4824-90e9-269271c326e2/image?iterationId=72e303ec-4b04-4c85-af91-85161e068ab6";
+            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/2defb8ad-10d4-4b1c-90b7-bfffd52a91bf/image?iterationId=880590b0-79cc-4097-981b-eea2e2c5f377";
 
             HttpResponseMessage response;
 
@@ -82,7 +82,7 @@ namespace Module2
                     double value = 0;
                     int rounds = 0;
                     int turns = 0;
-                    string state = "0.0845";
+                    string state = "0.0845"; //random number set to declare the string
 
                     var responseString = await response.Content.ReadAsStringAsync();
 

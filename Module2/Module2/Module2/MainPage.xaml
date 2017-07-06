@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:local="clr-namespace:Module2" 
     x:Class="Module2.MainPage">
-    <NavigationPage Title="Information">
+    <NavigationPage Title="Author Page">
         <x:Arguments>
             <local:AzureTable />
         </x:Arguments>
