@@ -1,8 +1,11 @@
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Module2.Android.dll.config
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Module2.Android.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Module2.Android.pdb
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Module2.Android.apk
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Module2.Android-Signed.apk
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Module2.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Newtonsoft.Json.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.CurrentActivity.dll
@@ -10,6 +13,8 @@ C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\D
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.Media.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.Permissions.Abstractions.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.Permissions.dll
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\System.Net.Http.Primitives.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
@@ -34,6 +39,8 @@ C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\D
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Module2.dll.config
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Newtonsoft.Json.xml
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.CurrentActivity.xml
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.Media.pdb
@@ -46,6 +53,8 @@ C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\D
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.Permissions.dll.mdb
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.Permissions.Abstractions.pdb
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Plugin.Permissions.Abstractions.xml
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
