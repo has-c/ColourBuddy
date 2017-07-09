@@ -5,6 +5,7 @@ using Microsoft.WindowsAzure.MobileServices;
 using Xamarin.Forms;
 using Module2.DataModels;
 
+
 namespace Module2
 
 {
@@ -19,9 +20,9 @@ namespace Module2
 
         async void Handle_ClickedAsync(object sender, System.EventArgs e)
         {
-            List<colourbuddyinformation> notHotDogInformation = await AzureManager.AzureManagerInstance.GetHotDogInformation();
+            List<colourbuddyinformation> colourInformation = await AzureManager.AzureManagerInstance.GetColourInformation();
 
-            HotDogList.ItemsSource = notHotDogInformation;
+            ColourList.ItemsSource = colourInformation;
         }
 
     }

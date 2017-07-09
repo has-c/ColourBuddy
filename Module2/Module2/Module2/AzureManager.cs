@@ -11,12 +11,12 @@ namespace Module2
 
         private static AzureManager instance;
         private MobileServiceClient client;
-        private IMobileServiceTable<colourbuddyinformation> notHotDogTable;
+        private IMobileServiceTable<colourbuddyinformation> colourTable;
 
         private AzureManager()
         {
             this.client = new MobileServiceClient("http://colourbuddy.azurewebsites.net");
-            this.notHotDogTable = this.client.GetTable<colourbuddyinformation>();
+            this.colourTable = this.client.GetTable<colourbuddyinformation>();
         }
 
         public MobileServiceClient AzureClient
@@ -37,9 +37,15 @@ namespace Module2
             }
         }
 
-        public async Task<List<colourbuddyinformation>> GetHotDogInformation()
+        public async Task<List<colourbuddyinformation>> GetColourInformation()
         {
-            return await this.notHotDogTable.ToListAsync();
+            return await this.colourTable.ToListAsync();
         }
+
+        public async Task PostColourInformation(colourbuddyinformation colourTable)
+        {
+            await this.colourTable.InsertAsync(colourTable);
+        }
+
     }
 }

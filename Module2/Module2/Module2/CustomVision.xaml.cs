@@ -11,18 +11,23 @@ using Plugin.Media.Abstractions;
 using Module2.Model;
 using Xamarin.Forms;
 using Newtonsoft.Json.Linq;
+using Module2.DataModels;
 
 namespace Module2
 {
     public partial class CustomVision : ContentPage
     {
         public CustomVision()
+
         {
             InitializeComponent();
+        
         }
 
         private async void loadCamera(object sender, EventArgs e)
         {
+          
+
             await CrossMedia.Current.Initialize();
 
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
@@ -46,8 +51,9 @@ namespace Module2
                 return file.GetStream();
             });
 
-
             await MakePredictionRequest(file);
+           
+           
         }
 
         static byte[] GetImageAsByteArray(MediaFile file)
@@ -56,6 +62,7 @@ namespace Module2
             BinaryReader binaryReader = new BinaryReader(stream);
             return binaryReader.ReadBytes((int)stream.Length);
         }
+      
 
         async Task MakePredictionRequest(MediaFile file)
         {
@@ -83,6 +90,10 @@ namespace Module2
                     int rounds = 0;
                     int turns = 0;
                     string state = "0.0845"; //random number set to declare the string
+                    string phrase = "0.078"; // random number used to declare the string
+
+                    double prob = 0;
+                    
 
                     var responseString = await response.Content.ReadAsStringAsync();
 
@@ -101,7 +112,7 @@ namespace Module2
 
                     foreach (var item in Probability)
                     {
-                        double prob = Convert.ToDouble(item);
+                        prob = Convert.ToDouble(item);
                         prob = prob * 100;
                         string num = Convert.ToString(prob);
                         PredictionLabel.Text += (num + "\n");
@@ -109,6 +120,7 @@ namespace Module2
                         if (count == 0)
                         {
                             value = prob;
+                            count += 1;
                         }
                         else
                         {
@@ -121,7 +133,8 @@ namespace Module2
                             count += 1;
                         }
                     }
-                    string phrase = Convert.ToString(value);
+
+                    phrase = Convert.ToString(value);
 
                     foreach (var item in Tag)
                     {
@@ -140,6 +153,16 @@ namespace Module2
                     }
 
                     Decision.Text = "This colour is " + state;
+
+                    colourbuddyinformation model = new colourbuddyinformation()
+                    {
+                        Colour = state,
+                        Probability = phrase
+                    };
+
+                    await AzureManager.AzureManagerInstance.PostColourInformation(model);
+
+
 
 
 
