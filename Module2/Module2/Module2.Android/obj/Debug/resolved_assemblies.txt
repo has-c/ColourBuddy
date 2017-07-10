@@ -3,6 +3,8 @@ C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\D
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\Debug\android\assets\Microsoft.WindowsAzure.Mobile.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\Debug\android\assets\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\Debug\android\assets\Plugin.Connectivity.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\Debug\android\assets\Plugin.Media.Abstractions.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2.Android\obj\Debug\android\assets\Plugin.Media.dll

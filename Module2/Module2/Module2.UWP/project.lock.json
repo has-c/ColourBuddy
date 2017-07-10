@@ -2,21 +2,18 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -31,11 +28,8 @@
           "lib/win8/_._": {}
         }
       },
-      "Microsoft.Bcl.Build/1.0.21": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Bcl.Build.targets": {}
-        }
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
       },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
@@ -2511,6 +2505,17 @@
           }
         }
       },
+      "Xam.Plugin.Connectivity/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xam.Plugin.Media/3.0.1": {
         "type": "package",
         "compile": {
@@ -2545,21 +2550,18 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -2574,11 +2576,8 @@
           "lib/win8/_._": {}
         }
       },
-      "Microsoft.Bcl.Build/1.0.21": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Bcl.Build.targets": {}
-        }
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
       },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
@@ -5084,6 +5083,17 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xam.Plugin.Media/3.0.1": {
         "type": "package",
         "compile": {
@@ -5118,21 +5128,18 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -5147,11 +5154,8 @@
           "lib/win8/_._": {}
         }
       },
-      "Microsoft.Bcl.Build/1.0.21": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Bcl.Build.targets": {}
-        }
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
       },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
@@ -7696,6 +7700,17 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xam.Plugin.Media/3.0.1": {
         "type": "package",
         "compile": {
@@ -7730,21 +7745,18 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -7759,11 +7771,8 @@
           "lib/win8/_._": {}
         }
       },
-      "Microsoft.Bcl.Build/1.0.21": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Bcl.Build.targets": {}
-        }
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
       },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
@@ -10278,6 +10287,17 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xam.Plugin.Media/3.0.1": {
         "type": "package",
         "compile": {
@@ -10312,21 +10332,18 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -10341,11 +10358,8 @@
           "lib/win8/_._": {}
         }
       },
-      "Microsoft.Bcl.Build/1.0.21": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Bcl.Build.targets": {}
-        }
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
       },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
@@ -12899,6 +12913,17 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xam.Plugin.Media/3.0.1": {
         "type": "package",
         "compile": {
@@ -12933,21 +12958,18 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -12962,11 +12984,8 @@
           "lib/win8/_._": {}
         }
       },
-      "Microsoft.Bcl.Build/1.0.21": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Bcl.Build.targets": {}
-        }
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
       },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
@@ -15481,6 +15500,17 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xam.Plugin.Media/3.0.1": {
         "type": "package",
         "compile": {
@@ -15515,21 +15545,18 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -15544,11 +15571,8 @@
           "lib/win8/_._": {}
         }
       },
-      "Microsoft.Bcl.Build/1.0.21": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Bcl.Build.targets": {}
-        }
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
       },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
@@ -18102,6 +18126,17 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Connectivity/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xam.Plugin.Media/3.0.1": {
         "type": "package",
         "compile": {
@@ -18137,45 +18172,23 @@
     }
   },
   "libraries": {
-    "Microsoft.Azure.Mobile.Client/3.1.0": {
-      "sha512": "L/RF/9A/mMFifQsTBRmSPV3UpvG11LR+0vsm7KKkOW7pLeRmsAWFtfKRUKoEfgdi2XoOFSLkXk88w8jVXV5uJA==",
+    "Microsoft.Azure.Mobile.Client/4.0.1": {
+      "sha512": "cOEE1YSTb6WTCfMQFdRCDx8iH+KKv3fwNEGldPtvQPi9+En8NQVRqOrkuBFck+drQ9JFUYOvgjBC+qJGYkSwLA==",
       "type": "package",
-      "path": "microsoft.azure.mobile.client/3.1.0",
+      "path": "microsoft.azure.mobile.client/4.0.1",
       "files": [
-        "lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/monoandroid/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/monoandroid/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/monoandroid/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/monoandroid/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/monotouch/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/monotouch/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/monotouch/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/monotouch/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/net45/Microsoft.WindowsAzure.Mobile.Ext.XML",
-        "lib/net45/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/net45/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/net45/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.pri",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/portable-win+net45+wp8+wpa81+monotouch+monoandroid/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/portable-win+net45+wp8+wpa81+monotouch+monoandroid/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.UI.dll",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.UI.xml",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/wpa81/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/wpa81/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/wpa81/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/wpa81/Microsoft.WindowsAzure.Mobile.xml",
-        "microsoft.azure.mobile.client.3.1.0.nupkg.sha512",
+        "lib/monoandroid70/Microsoft.Azure.Mobile.Client.dll",
+        "lib/monoandroid70/Microsoft.Azure.Mobile.Client.xml",
+        "lib/net45/Microsoft.Azure.Mobile.Client.dll",
+        "lib/net45/Microsoft.Azure.Mobile.Client.xml",
+        "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.dll",
+        "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.xml",
+        "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll",
+        "lib/uap10.0/Microsoft.Azure.Mobile.Client.pri",
+        "lib/uap10.0/Microsoft.Azure.Mobile.Client.xml",
+        "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll",
+        "lib/xamarinios10/Microsoft.Azure.Mobile.Client.xml",
+        "microsoft.azure.mobile.client.4.0.1.nupkg.sha512",
         "microsoft.azure.mobile.client.nuspec"
       ]
     },
@@ -18269,16 +18282,23 @@
         "microsoft.bcl.nuspec"
       ]
     },
-    "Microsoft.Bcl.Build/1.0.21": {
-      "sha512": "sgHu4mIt0+NVGyI12Bj4hLPypNK55UOH+ologj2LqDCjxq3EbIxe/uAtHjY+fEwbE1dtsAHG8SXHf+V/EYbKTg==",
+    "Microsoft.Bcl.Build/1.0.14": {
+      "sha512": "cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
       "type": "package",
-      "path": "microsoft.bcl.build/1.0.21",
+      "path": "microsoft.bcl.build/1.0.14",
       "files": [
         "License-Stable.rtf",
-        "build/Microsoft.Bcl.Build.Tasks.dll",
-        "build/Microsoft.Bcl.Build.targets",
-        "microsoft.bcl.build.1.0.21.nupkg.sha512",
-        "microsoft.bcl.build.nuspec"
+        "content/net40/_._",
+        "content/netcore45/_._",
+        "content/portable-net40+win8+sl4+wp71+wpa81/_._",
+        "content/sl4-windowsphone71/_._",
+        "content/sl4/_._",
+        "microsoft.bcl.build.1.0.14.nupkg.sha512",
+        "microsoft.bcl.build.nuspec",
+        "tools/Install.ps1",
+        "tools/Microsoft.Bcl.Build.Tasks.dll",
+        "tools/Microsoft.Bcl.Build.targets",
+        "tools/Uninstall.ps1"
       ]
     },
     "Microsoft.CSharp/4.3.0": {
@@ -27060,6 +27080,60 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Xam.Plugin.Connectivity/3.0.1": {
+      "sha512": "Fk3LS8pMRmFBlf7ZUWwSzJvE4wtZKAYtleGHrHEf5vmQahJdgmYnjWvMPYQUtpc7gYEqnBQpGmoDjtNT3JA4lg==",
+      "type": "package",
+      "path": "xam.plugin.connectivity/3.0.1",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.xml",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.xml",
+        "lib/UAP10/Plugin.Connectivity.XML",
+        "lib/UAP10/Plugin.Connectivity.dll",
+        "lib/UAP10/Plugin.Connectivity.pdb",
+        "lib/UAP10/Plugin.Connectivity.pri",
+        "lib/UAP10/Plugin.Connectivity/Properties/Plugin.Connectivity.rd.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.xml",
+        "lib/net45/Plugin.Connectivity.Abstractions.dll",
+        "lib/net45/Plugin.Connectivity.Abstractions.pdb",
+        "lib/net45/Plugin.Connectivity.Abstractions.xml",
+        "lib/net45/Plugin.Connectivity.XML",
+        "lib/net45/Plugin.Connectivity.dll",
+        "lib/net45/Plugin.Connectivity.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.deps.json",
+        "lib/netstandard1.0/Plugin.Connectivity.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.xml",
+        "xam.plugin.connectivity.3.0.1.nupkg.sha512",
+        "xam.plugin.connectivity.nuspec"
+      ]
+    },
     "Xam.Plugin.Media/3.0.1": {
       "sha512": "g/FOs1yxjrHGlcVp4tNcSIAl92dazWxCLP2N1/h8P9h/eGsFj8uIgrJDZrtb1Laam2//4A8FyQy8kzOODWNGnA==",
       "type": "package",
@@ -27261,11 +27335,14 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.Azure.Mobile.Client >= 3.1.0",
+      "Microsoft.Azure.Mobile.Client >= 4.0.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.3",
+      "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 10.0.3",
       "Plugin.Permissions >= 2.0.1",
+      "System.IO.FileSystem >= 4.3.0",
       "System.Net.Http >= 4.3.2",
+      "Xam.Plugin.Connectivity >= 3.0.1",
       "Xam.Plugin.Media >= 3.0.1",
       "Xamarin.Forms >= 2.3.4.247"
     ],
@@ -27292,11 +27369,14 @@
       }
     },
     "dependencies": {
-      "Microsoft.Azure.Mobile.Client": "[3.1.0, )",
+      "Microsoft.Azure.Mobile.Client": "[4.0.1, )",
+      "Microsoft.Net.Http": "2.2.29",
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
       "Newtonsoft.Json": "10.0.3",
       "Plugin.Permissions": "2.0.1",
+      "System.IO.FileSystem": "4.3.0",
       "System.Net.Http": "4.3.2",
+      "Xam.Plugin.Connectivity": "3.0.1",
       "Xam.Plugin.Media": "3.0.1",
       "Xamarin.Forms": "2.3.4.247"
     },

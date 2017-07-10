@@ -21,12 +21,12 @@ namespace Module2
 
         {
             InitializeComponent();
-        
+
         }
 
         private async void loadCamera(object sender, EventArgs e)
         {
-          
+
 
             await CrossMedia.Current.Initialize();
 
@@ -52,8 +52,8 @@ namespace Module2
             });
 
             await MakePredictionRequest(file);
-           
-           
+
+
         }
 
         static byte[] GetImageAsByteArray(MediaFile file)
@@ -62,7 +62,7 @@ namespace Module2
             BinaryReader binaryReader = new BinaryReader(stream);
             return binaryReader.ReadBytes((int)stream.Length);
         }
-      
+
 
         async Task MakePredictionRequest(MediaFile file)
         {
@@ -93,7 +93,7 @@ namespace Module2
                     string phrase = "0.078"; // random number used to declare the string
 
                     double prob = 0;
-                    
+
 
                     var responseString = await response.Content.ReadAsStringAsync();
 
@@ -138,7 +138,7 @@ namespace Module2
 
                     foreach (var item in Tag)
                     {
-              
+
 
                         if (turns <= rounds)
                         {

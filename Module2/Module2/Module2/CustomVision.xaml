@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Module2.CustomVision" Title="Colour Breakdown">
     <ScrollView>
-        <StackLayout Padding ="20" Orientation="Vertical">
-        <Button Text="Take Photo"
+        <StackLayout Padding ="10" Orientation="Vertical">
+        <Button Text="Take Photo" TextColor="White" BackgroundColor="Red"
                 Clicked="loadCamera" />
         <StackLayout Orientation="Horizontal">
             <Label x:Name="TagLabel">
@@ -11,7 +11,7 @@
             </Label>
             </StackLayout>
         <Image x:Name="image" Aspect="AspectFit"/>
-        <Label x:Name="Decision" TextColor="Yellow" BackgroundColor="Black" FontSize="Large">
+        <Label x:Name="Decision" TextColor="Black" FontSize="Large">
         </Label>
         </StackLayout>
   </ScrollView>

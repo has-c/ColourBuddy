@@ -39,3 +39,9 @@ C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\obj\Debug\Mod
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\obj\Debug\Module2.CustomVision.xaml.g.cs
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\obj\Debug\Module2.dll
 C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\obj\Debug\Module2.pdb
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\bin\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\bin\Debug\Plugin.Connectivity.dll
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\bin\Debug\Plugin.Connectivity.pdb
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\bin\Debug\Plugin.Connectivity.xml
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\hasna\Desktop\Xamarin\ColourBuddy\Module2\Module2\Module2\bin\Debug\Plugin.Connectivity.Abstractions.xml
