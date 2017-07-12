@@ -27353,23 +27353,23 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\hasna\\Desktop\\Xamarin\\ColourBuddy\\Module2\\Module2\\Module2.UWP\\Module2.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\hasna\\Desktop\\Module2\\Module2\\Module2.UWP\\Module2.UWP.csproj",
       "projectName": "Module2.UWP",
-      "projectPath": "C:\\Users\\hasna\\Desktop\\Xamarin\\ColourBuddy\\Module2\\Module2\\Module2.UWP\\Module2.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\hasna\\Desktop\\Xamarin\\ColourBuddy\\Module2\\Module2\\Module2.UWP\\project.json",
+      "projectPath": "C:\\Users\\hasna\\Desktop\\Module2\\Module2\\Module2.UWP\\Module2.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\hasna\\Desktop\\Module2\\Module2\\Module2.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\hasna\\Desktop\\Xamarin\\ColourBuddy\\Module2\\Module2\\Module2\\Module2.csproj": {
-              "projectPath": "C:\\Users\\hasna\\Desktop\\Xamarin\\ColourBuddy\\Module2\\Module2\\Module2\\Module2.csproj"
+            "C:\\Users\\hasna\\Desktop\\Module2\\Module2\\Module2\\Module2.csproj": {
+              "projectPath": "C:\\Users\\hasna\\Desktop\\Module2\\Module2\\Module2\\Module2.csproj"
             }
           }
         }
       }
     },
     "dependencies": {
-      "Microsoft.Azure.Mobile.Client": "[4.0.1, )",
+      "Microsoft.Azure.Mobile.Client": "4.0.1",
       "Microsoft.Net.Http": "2.2.29",
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
       "Newtonsoft.Json": "10.0.3",

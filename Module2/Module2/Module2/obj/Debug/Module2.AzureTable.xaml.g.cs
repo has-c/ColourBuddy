@@ -11,8 +11,7 @@
 namespace Module2 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\hasna\\Desktop\\Xamarin\\ColourBuddy\\Module2\\Module2\\Module2\\AzureTable.xam" +
-        "l")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\hasna\\Desktop\\Module2\\Module2\\Module2\\AzureTable.xaml")]
     public partial class AzureTable : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -13,7 +13,7 @@
     <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.yourcompany.Module2.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Module2" android:theme="@style/MainTheme" android:name="md5b2a689d58fef72d9ff47668a1e9510f7.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="ColourBuddy" android:theme="@style/MainTheme" android:name="md5b2a689d58fef72d9ff47668a1e9510f7.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
