@@ -1,3 +1,3 @@
 # ColourBuddy
 
-Uses computer vision to aid colourblind people to distinguish colours around them. 
+Uses Microsoft CV API to distinguish colours. Built in xamarin studio using C# and xml. Built for MSA 2017 Phase 2.
